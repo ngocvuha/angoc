@@ -1,0 +1,8 @@
+.frontend-advertisment-default .advertisment-bound{
+	text-align:center;
+}
+.frontend-advertisment-default .advertisment-bound img{
+	margin:0 auto;
+	width:100%;
+	margin-bottom:2%;
+}

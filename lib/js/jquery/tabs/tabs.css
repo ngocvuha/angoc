@@ -1,0 +1,28 @@
+@media projection, screen 
+{
+    .ui-tabs-hide {
+        display: none;
+    }
+}
+@media print 
+{
+    .ui-tabs-nav {
+        display: none;
+    }
+}
+#container-1
+{
+	width:100%;
+	#width:99%;
+}
+/* Skin */
+.ui-tabs-nav li { 
+    float: left;
+    font-weight: bold;
+	list-style-type:none;
+}
+.ui-tabs-nav .ui-tabs-selected a {
+    position: relative;
+	display:block;
+}
+

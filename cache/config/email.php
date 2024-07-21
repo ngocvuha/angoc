@@ -1,0 +1,1 @@
+<?php $email_config = "admin"; $password_config = "fjgh0000";?>

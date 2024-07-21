@@ -1,0 +1,20 @@
+.new-module,.new-module:visited,
+.new-module:hover,.new-module:visited:hover{
+	color:#000;
+	cursor:move;
+	text-decoration:none;
+}
+.module-odd,.module-odd:visited,
+.module-odd:hover,.module-odd:visited:hover{
+	color:#00C;
+}
+.module-item{
+	position:relative;
+	padding:3px 0;
+}
+.module-item:hover{
+	background-color:#efefef;
+}
+.controls{
+	position:absolute; top:2px; right:2px; padding:2px; background-color:#fff; box-shadow:3px 3px 3px #ccc; display:none;
+}

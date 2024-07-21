@@ -1,0 +1,20 @@
+<?php
+if(User::is_login() and $id=User::id())
+{
+	DB::update('account',array('last_online_time'=>time()),"id='".$id."'");
+	setcookie('user_id',"",time()-3600);
+	Session::destroy();
+	if(URL::check('href'))
+	{
+		URL::redirect_url($_REQUEST['href']);
+	}
+	else
+	{
+		Url::access_denied();
+	}
+}
+else
+{
+	Url::access_denied();
+}
+?>

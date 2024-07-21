@@ -1,0 +1,68 @@
+.fm-bound{
+	background:#FFF;
+	padding:0px 2px;
+	min-height:250px;
+	margin:1px;
+}
+.fm-menu-bound{
+	
+}
+.fm-menu{
+	margin:2px 2px 6px;
+	background:#FBFBFB;
+	border-bottom:2px solid #666666;	
+}
+.fm-menu tr td{ padding:8px;}
+.fm-menu  .fm-upload img{
+	border:1px solid #000099;
+	margin-bottom:-6px;
+	width:21px;
+}
+.fm-list-bound{
+	height:485px;
+	overflow:scroll;
+}
+.fm-folder, .fm-file{
+	float:left;
+	text-align:center;
+	height:120px;
+	margin:8px;
+	cursor:pointer;
+}
+.fm-name{
+	width:120px;
+	overflow:hidden;
+}
+.fm-file img,.fm-folder img{
+	height:70px;
+	max-width:120px;
+	padding:1px;
+	margin-bottom:5px;
+}
+.fm-file img{
+	border:1px solid #ccc;
+}
+.fm-folder-selected{
+	background:#0099CC;
+}
+.fm-action{
+	background:#3399CC;
+	padding:10px;
+	text-align:center;
+}
+.fm-menu-command{
+	background:#fff;
+	border:1px solid #ccc;
+	width:80px;
+	position:absolute;
+	display:none;
+}
+.fm-menu-command div{
+	line-height:18px;
+	font-weight:bold;
+	padding:5px 20px;
+}
+.fm-menu-command div:hover{
+	background-color:#E9F2FE;
+	cursor:default;
+}

@@ -1,0 +1,25 @@
+/*!
+ * jQuery UI CSS Framework 1.9.1
+ * http://jqueryui.com
+ *
+ * Copyright 2012 jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Theming
+ */
+@import "templates/admin_default/css/jquery_base/jquery.ui.core.css";
+
+@import ("templates/admin_default/css/jquery_base/jquery.ui.accordion.css");
+@import ("templates/admin_default/css/jquery_base/jquery.ui.autocomplete.css");
+@import ("templates/admin_default/css/jquery_base/jquery.ui.button.css");
+@import ("templates/admin_default/css/jquery_base/jquery.ui.datepicker.css");
+@import ("templates/admin_default/css/jquery_base/jquery.ui.dialog.css");
+@import ("templates/admin_default/css/jquery_base/jquery.ui.menu.css");
+@import ("templates/admin_default/css/jquery_base/jquery.ui.progressbar.css");
+@import ("templates/admin_default/css/jquery_base/jquery.ui.resizable.css");
+@import ("templates/admin_default/css/jquery_base/jquery.ui.selectable.css");
+@import ("templates/admin_default/css/jquery_base/jquery.ui.slider.css");
+@import ("templates/admin_default/css/jquery_base/jquery.ui.spinner.css");
+@import "templates/admin_default/css/jquery_base/jquery.ui.tabs.css";
+@import ("templates/admin_default/css/jquery_base/jquery.ui.tooltip.css");

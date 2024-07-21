@@ -1,0 +1,50 @@
+.navbar-default{
+	background:#CCCCCC;
+	border:none;
+	border-radius:0;
+}
+.navbar{ margin-bottom:0;}
+.navbar-default .navbar-nav{margin:0;}
+.navbar-default .navbar-nav > li > a{
+	color:#FFF;
+	white-space:nowrap;
+	padding:0 15px;
+}
+.navbar-default .navbar-nav > li > a:hover,.navbar-default .navbar-nav > li > a:visited:hover{
+	color:#FF0;	
+}
+.navbar-default .navbar-collapse{ border-top:0;}
+.navbar-default .navbar-toggle:hover{background:#158FCF;}
+.navbar-default .navbar-toggle .icon-bar{ background-color:#FFF;}
+#navbar{padding:0;}
+@media (min-width: 768px) {
+	.navbar-default .navbar-nav > li > a{ padding:3px 20px;}
+	.navbar-default .navbar-nav > li:not(:last-child){
+		border-right:1px solid #FFF;
+	}
+
+}
+@media (max-width: 767px) {
+	.navbar-default .navbar-nav > li > a{ padding:15px;}	
+
+}
+.navbar-default .navbar-nav>li{
+}
+.navbar-default .navbar-nav>.active{
+	background:url(../images/menu_active.png);
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover{
+	background:none;
+	color:#FFF;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+       background:none;color:#FF0;
+}
+.dropdown-menu{min-width:100%;border-radius:0;box-shadow:0 2px 3px #333;border:0;padding:0}
+.dropdown-menu>li{padding:8px 0;}
+.dropdown-menu>li>a:hover{background:#EFEFEF;}
+.menutop-time{ line-height: 26px; padding-left:5px; color:#666;}
+.navbar-default .navbar-nav > li.iconhome{border-right:none;}
+.iconhome a{width:30px; height:26px; background:url(../images/icon_home.png) 50% 50% no-repeat;}

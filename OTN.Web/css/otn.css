@@ -1,0 +1,375 @@
+﻿body 
+{
+	padding: 0px; 
+	margin: 0px; 
+    MARGIN-BOTTOM: 0px; 
+    MARGIN-TOP: 0px;
+}
+
+.Footer_Text
+{
+	font-size: 10pt;
+	font-family: 'Arial';
+	color:#888888;
+}
+.MainTable
+{
+	width:760px;	
+	text-align:center;
+}
+.HeaderTitles
+{
+	font-size: 16pt;
+	font-weight:bold;
+	font-family: 'Times New Roman';
+	COLOR: #555555;
+	background-color:#efefef;
+	border-bottom:solid 1px #cacaca;
+	height:25px;
+	padding:2px 10px;
+}
+.LabelTitle
+{
+	FONT-FAMILY: 'Arial'; 
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 10pt;
+	color:#333333;
+}
+.SignOut
+{
+	FONT-FAMILY: 'Arial'; 
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 10pt;
+	color: #333333;
+	font-style:normal;
+}
+.LabelRed
+{
+	FONT-FAMILY: 'Arial'; 
+	FONT-WEIGHT: Bold;
+	FONT-SIZE: 12pt;
+	color:#FFFFFF;
+}
+.LabelRedNormal
+{
+	FONT-FAMILY: 'Arial'; 
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12pt;
+	color:#FFFFFF;
+}
+.LabelYellow
+{
+	FONT-FAMILY: 'Arial'; 
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12pt;
+	color:#FFFFFF;
+}
+.Header_AuctionOnlineTable
+{
+	FONT-FAMILY: 'Arial'; 
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 14pt;
+	color:#000080;
+}
+.Item_AuctionOnlineTable
+{
+	FONT-FAMILY: 'Arial'; 
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12pt;
+	color:#FFFFFF;
+	HEIGHT: 28px;
+}
+.HomeTitle
+{
+	FONT-FAMILY: 'Arial'; 
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 10pt;
+	color:#000000;
+	text-decoration:none;
+	
+}
+.Button
+{
+	FONT-FAMILY: 'Tahoma'; 
+	FONT-SIZE: 9pt;
+	WIDTH: 90px;
+    margin-left: 0px;
+    height: 25px;
+}
+.TextBox
+{
+	FONT-FAMILY: 'Arial';
+	BACKGROUND-COLOR:Transparent;
+	FONT-SIZE: 10pt;
+	border-style:groove;
+}
+.FileUpload
+{
+	FONT-FAMILY: 'Arial';
+	BACKGROUND-COLOR:Transparent;
+	FONT-SIZE: 10pt;
+	border-style:groove;
+}
+.ErrorText
+{
+	font-size: 11pt;
+	font-family: 'Arial';
+	color:Red;
+}
+.NoteText
+{
+	font-size: 10pt;
+	font-family: 'Arial';
+	color:Blue;
+}
+.MessageText
+{
+	font-size: 11pt;
+	font-family: 'Times New Roman';
+	color:Blue;
+	font-weight:bold;
+}
+.DataGrid_General
+{
+	BORDER-RIGHT: #6979AA 1px solid;
+	BORDER-TOP: #6979AA 1px solid;
+	BORDER-LEFT: #6979AA 1px solid;
+	BORDER-BOTTOM: #6979AA 1px solid;
+}
+
+.DataGrid_Header
+{
+	FONT-FAMILY: 'Arial';
+	BACKGROUND-COLOR: #6979AA;
+	FONT-WEIGHT: Bold;
+	FONT-SIZE: 10pt;
+	COLOR: #eeeeee;
+	HEIGHT: 25px;
+	TEXT-ALIGN: center;
+	TEXT-DECORATION: none;
+}
+
+.Header_AuctionOnline
+{
+	FONT-FAMILY: 'Arial';
+	FONT-WEIGHT: Bold;
+	FONT-SIZE: 12pt;
+	COLOR: #FFFF00;
+	HEIGHT: 20px;
+}
+
+
+.DataGrid_Item
+{
+	FONT-FAMILY: 'Arial';
+	FONT-SIZE: 10pt;
+	COLOR: #555555;
+	HEIGHT: 20px;
+}
+
+.DataGrid_Item_Yellow
+{
+	FONT-FAMILY: 'Arial';
+	FONT-SIZE: 12pt;
+	font-weight:bold;
+	COLOR: #FFFFFF;
+	HEIGHT: 22px;
+}
+
+.DataGrid_Footer
+{
+	FONT-FAMILY: 'Arial';
+	BACKGROUND-COLOR: #6979AA;
+	FONT-WEIGHT: bold;
+	COLOR: #003399;
+	FONT-SIZE: 10pt;
+	HEIGHT: 20px;
+}
+
+.DataGrid_Pager
+{
+	FONT-FAMILY: 'Times New Roman';
+	BACKGROUND-COLOR: #efefef;
+	FONT-WEIGHT: bold;
+	COLOR: #003399;
+	FONT-SIZE: 10pt;
+	HEIGHT: 20px;
+	TEXT-ALIGN: Center;
+}
+
+.DataGrid_AlternatingItem
+{
+	FONT-FAMILY: 'Arial';
+	FONT-SIZE: 10pt;
+	COLOR: #555555;
+	HEIGHT: 20px;
+}
+
+.DataGrid_AlternatingItem_Yellow
+{
+	FONT-FAMILY: 'Arial';
+	FONT-SIZE: 10pt;
+	COLOR: #FFFF00;
+	HEIGHT: 20px;
+}
+
+.DataGrid_SelectedItem
+{
+	FONT-FAMILY: 'Arial';
+	COLOR: #003399;
+	FONT-SIZE: 10pt;
+	HEIGHT: 20px;		
+}
+.LinkItem A
+{
+	FONT-FAMILY: 'Arial';
+	FONT-WEIGHT: Bold;
+	FONT-SIZE: 10pt;
+	COLOR: #555555;
+	TEXT-DECORATION: None; 
+	text-align: justify;
+}
+
+.LinkItem A:hover
+{
+	FONT-FAMILY: 'Arial';
+	FONT-WEIGHT: Bold;
+	FONT-SIZE: 10pt;
+	COLOR: #888888;
+	TEXT-DECORATION: Underline; 
+	text-align: justify;
+}
+
+.LinkItem_DataGrid A
+{
+	FONT-FAMILY: 'Arial';
+	FONT-SIZE: 10pt;
+	COLOR: #555555;
+	TEXT-DECORATION: None; 
+	text-align: justify;
+}
+
+.LinkItem_DataGrid A:hover
+{
+	FONT-FAMILY: 'Arial';
+	FONT-SIZE: 10pt;
+	COLOR: #888888;
+	TEXT-DECORATION: underline; 
+	text-align: justify;
+}
+
+.HeaderTitles
+{
+	FONT-FAMILY: 'Times New Roman'; 
+	FONT-WEIGHT: Bold;
+	FONT-SIZE: 14pt;
+	COLOR: Gray;
+}
+
+.LabelComment
+{
+	FONT-FAMILY: 'Arial';
+	FONT-SIZE: 10pt;
+	COLOR:#555555;
+	TEXT-DECORATION: None; 
+	TEXT-ALIGN: Justify;
+}
+
+.imgHand
+{
+	 CURSOR: Hand;
+}
+
+.ListBox
+{
+	FONT-FAMILY: 'Times New Roman'; 
+	FONT-SIZE: 11pt;
+}
+
+.TitleProgram
+{
+	FONT-FAMILY: 'Times New Roman'; 
+	FONT-WEIGHT: Bold;
+	FONT-SIZE: 20pt;
+	COLOR: Blue;
+}
+
+.UserName
+{
+	FONT-FAMILY: 'Arial'; 
+	FONT-WEIGHT: Bold;
+	FONT-SIZE: 10pt;
+	color: #2260D1;
+}
+
+.LabelResult
+{
+	FONT-FAMILY: 'Arial'; 
+	FONT-WEIGHT: Bold;
+	FONT-SIZE: 10pt;
+	color: #555555;	
+}
+
+.LabelInfo
+{
+	FONT-FAMILY: 'Arial'; 
+	FONT-SIZE: 10pt;
+}
+
+.RequiredField
+{
+	FONT-FAMILY: 'Arial'; 
+	FONT-SIZE: 10pt;
+	color: Red;
+}
+
+.ErrorField
+{
+	FONT-FAMILY: 'Arial'; 
+	FONT-SIZE: 10pt;
+	color: Red;
+}
+
+.Menu
+{
+	FONT-FAMILY: 'Arial'; 
+	FONT-SIZE: 10pt;
+	font-weight:bold;
+	color:Black;
+}
+
+.MultiView
+{
+	FONT-FAMILY: 'Arial'; 
+	FONT-SIZE: 10pt;
+}
+
+.HeadContent
+{
+	FONT-FAMILY: 'Arial'; 
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 10pt;
+	color:#000000;
+	text-decoration:none;
+	background-color:#efefef;
+	border-bottom:solid 1px #cacaca;
+	
+}
+.lnkFile
+{
+    text-decoration:none;
+}
+.gvCell
+{
+    font: 8pt Tahoma,Arial;
+}
+.text
+{
+    font: 11pt Times New Roman,Arial;
+    height: 17px;
+    width: 671px;
+}
+.textBold
+{
+    font-weight: bold;
+}

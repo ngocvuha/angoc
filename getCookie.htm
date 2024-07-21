@@ -1,0 +1,55 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>New Page 4</title>
+<script type='text/javascript'>
+//<![CDATA[
+ 
+// Set cookie
+function setCookie(name, value, expires, path, domain, secure) {
+document.cookie = name + "=" + escape(value) +
+((expires == null) ? "" : "; expires=" + expires.toGMTString()) +
+((path == null) ? "" : "; path=" + path) +
+((domain == null) ? "" : "; domain=" + domain) +
+((secure == null) ? "" : "; secure");
+alert("Added");
+}
+ 
+// Read cookie
+function getCookie(name){
+	var cname = name + "=";
+	var dc = document.cookie;
+	if (dc.length > 0) {
+		begin = dc.indexOf(cname);
+		if (begin != -1) {
+			begin += cname.length;
+			end = dc.indexOf(";", begin);
+			if (end == -1) end = dc.length;
+			return unescape(dc.substring(begin, end));
+		}
+	}
+	return null;
+}
+ 
+//delete cookie
+function eraseCookie (name,path,domain) {
+	if (getCookie(name)) {
+		document.cookie = name + "=" +
+		((path == null) ? "" : "; path=" + path) +
+		((domain == null) ? "" : "; domain=" + domain) +
+		"; expires=Thu, 01-Jan-70 00:00:01 GMT";
+	}
+	alert ("Xong");
+}
+ 
+//]]>
+</script>
+</head>
+
+<body>
+<input type=button value="Add Cookie" onclick="setCookie('demo1','123',null,'/','tracnghiem.dhtdhn.edu.vn',null)" > 
+<input type=button value="Delete Cookie" onclick="eraseCookie('demo','/','tracnghiem.dhtdhn.edu.vn')" > 
+</body>
+
+</html>

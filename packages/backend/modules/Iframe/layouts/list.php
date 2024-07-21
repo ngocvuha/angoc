@@ -1,0 +1,1 @@
+<iframe src="[[|url|]]" width="100%" height="630px" style="border:none; overflow:hidden;"></iframe>

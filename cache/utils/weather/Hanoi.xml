@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+		<rss version="2.0" xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+			<channel>
+		
+<title>Yahoo! Weather - Hanoi, VN</title>
+<link>http://us.rd.yahoo.com/dailynews/rss/weather/Hanoi__VN/*http://weather.yahoo.com/forecast/VMXX0006_c.html</link>
+<description>Yahoo! Weather for Hanoi, VN</description>
+<language>en-us</language>
+<lastBuildDate>Wed, 06 Nov 2013 10:00 am ICT</lastBuildDate>
+<ttl>60</ttl>
+<yweather:location city="Hanoi" region=""   country="Vietnam"/>
+<yweather:units temperature="C" distance="km" pressure="mb" speed="km/h"/>
+<yweather:wind chill="26"   direction="30"   speed="14.48" />
+<yweather:atmosphere humidity="51"  visibility="9"  pressure="1015.92"  rising="0" />
+<yweather:astronomy sunrise="6:01 am"   sunset="5:17 pm"/>
+<image>
+<title>Yahoo! Weather</title>
+<width>142</width>
+<height>18</height>
+<link>http://weather.yahoo.com</link>
+<url>http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif</url>
+</image>
+<item>
+<title>Conditions for Hanoi, VN at 10:00 am ICT</title>
+<geo:lat>21.14</geo:lat>
+<geo:long>105.87</geo:long>
+<link>http://us.rd.yahoo.com/dailynews/rss/weather/Hanoi__VN/*http://weather.yahoo.com/forecast/VMXX0006_c.html</link>
+<pubDate>Wed, 06 Nov 2013 10:00 am ICT</pubDate>
+<yweather:condition  text="Sunny"  code="32"  temp="26"  date="Wed, 06 Nov 2013 10:00 am ICT" />
+<description><![CDATA[
+<img src="http://l.yimg.com/a/i/us/we/52/32.gif"/><br />
+<b>Current Conditions:</b><br />
+Sunny, 26 C<BR />
+<BR /><b>Forecast:</b><BR />
+Wed - Partly Cloudy. High: 29 Low: 22<br />
+Thu - Mostly Cloudy. High: 29 Low: 23<br />
+Fri - Partly Cloudy. High: 27 Low: 23<br />
+Sat - AM Thunderstorms. High: 28 Low: 22<br />
+Sun - PM Thunderstorms. High: 30 Low: 22<br />
+<br />
+<a href="http://us.rd.yahoo.com/dailynews/rss/weather/Hanoi__VN/*http://weather.yahoo.com/forecast/VMXX0006_c.html">Full Forecast at Yahoo! Weather</a><BR/><BR/>
+(provided by <a href="http://www.weather.com" >The Weather Channel</a>)<br/>
+]]></description>
+<yweather:forecast day="Wed" date="6 Nov 2013" low="22" high="29" text="Partly Cloudy" code="30" />
+<yweather:forecast day="Thu" date="7 Nov 2013" low="23" high="29" text="Mostly Cloudy" code="28" />
+<yweather:forecast day="Fri" date="8 Nov 2013" low="23" high="27" text="Partly Cloudy" code="30" />
+<yweather:forecast day="Sat" date="9 Nov 2013" low="22" high="28" text="AM Thunderstorms" code="38" />
+<yweather:forecast day="Sun" date="10 Nov 2013" low="22" high="30" text="PM Thunderstorms" code="38" />
+<guid isPermaLink="false">VMXX0006_2013_11_10_7_00_ICT</guid>
+</item>
+</channel>
+</rss>
+
+<!-- fan458.sports.gq1.yahoo.com Wed Nov  6 03:44:11 PST 2013 -->

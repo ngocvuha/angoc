@@ -1,0 +1,1 @@
+<a class="logo"><img src="{{Portal::get_setting('logo')}}" /></a>

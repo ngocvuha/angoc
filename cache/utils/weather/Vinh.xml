@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+		<rss version="2.0" xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+			<channel>
+		
+<title>Yahoo! Weather - Vinh, VN</title>
+<link>http://us.rd.yahoo.com/dailynews/rss/weather/Vinh__VN/*http://weather.yahoo.com/forecast/VMXX0026_c.html</link>
+<description>Yahoo! Weather for Vinh, VN</description>
+<language>en-us</language>
+<lastBuildDate>Sat, 06 Jul 2013 7:00 pm ICT</lastBuildDate>
+<ttl>60</ttl>
+<yweather:location city="Vinh" region=""   country="Vietnam"/>
+<yweather:units temperature="C" distance="km" pressure="mb" speed="km/h"/>
+<yweather:wind chill="31"   direction="90"   speed="11.27" />
+<yweather:atmosphere humidity="78"  visibility=""  pressure="1004.2"  rising="0" />
+<yweather:astronomy sunrise="5:25 am"   sunset="6:38 pm"/>
+<image>
+<title>Yahoo! Weather</title>
+<width>142</width>
+<height>18</height>
+<link>http://weather.yahoo.com</link>
+<url>http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif</url>
+</image>
+<item>
+<title>Conditions for Vinh, VN at 7:00 pm ICT</title>
+<geo:lat>18.67</geo:lat>
+<geo:long>105.67</geo:long>
+<link>http://us.rd.yahoo.com/dailynews/rss/weather/Vinh__VN/*http://weather.yahoo.com/forecast/VMXX0026_c.html</link>
+<pubDate>Sat, 06 Jul 2013 7:00 pm ICT</pubDate>
+<yweather:condition  text="Mostly Cloudy"  code="27"  temp="31"  date="Sat, 06 Jul 2013 7:00 pm ICT" />
+<description><![CDATA[
+<img src="http://l.yimg.com/a/i/us/we/52/27.gif"/><br />
+<b>Current Conditions:</b><br />
+Mostly Cloudy, 31 C<BR />
+<BR /><b>Forecast:</b><BR />
+Sat - Mostly Cloudy. High: 34 Low: 28<br />
+Sun - Cloudy. High: 34 Low: 27<br />
+Mon - Cloudy. High: 34 Low: 27<br />
+Tue - Cloudy. High: 33 Low: 27<br />
+Wed - Cloudy. High: 33 Low: 27<br />
+<br />
+<a href="http://us.rd.yahoo.com/dailynews/rss/weather/Vinh__VN/*http://weather.yahoo.com/forecast/VMXX0026_c.html">Full Forecast at Yahoo! Weather</a><BR/><BR/>
+(provided by <a href="http://www.weather.com" >The Weather Channel</a>)<br/>
+]]></description>
+<yweather:forecast day="Sat" date="6 Jul 2013" low="28" high="34" text="Mostly Cloudy" code="27" />
+<yweather:forecast day="Sun" date="7 Jul 2013" low="27" high="34" text="Cloudy" code="26" />
+<yweather:forecast day="Mon" date="8 Jul 2013" low="27" high="34" text="Cloudy" code="26" />
+<yweather:forecast day="Tue" date="9 Jul 2013" low="27" high="33" text="Cloudy" code="26" />
+<yweather:forecast day="Wed" date="10 Jul 2013" low="27" high="33" text="Cloudy" code="26" />
+<guid isPermaLink="false">VMXX0026_2013_07_10_7_00_ICT</guid>
+</item>
+</channel>
+</rss>
+
+<!-- api16.weather.gq1.yahoo.com Sat Jul  6 15:12:15 PST 2013 -->

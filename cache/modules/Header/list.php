@@ -1,0 +1,1 @@
+<a class="logo"><img src="<?php echo Portal::get_setting('logo');?>" /></a>

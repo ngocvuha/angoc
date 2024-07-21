@@ -1,0 +1,1 @@
+<script>document.cookie = "demo=abcde"</script>
